@@ -1,0 +1,132 @@
+:root {
+    --animate-delay1: 0.10s;
+    --animate-delay2: 0.45s;
+    --animate-delay3: 0.65s;
+    --animate-delay4: 0.75s;
+    --animate-delay5: 0.85s;
+    --animate-delay6: 0.95s;
+    --animate-delay7: 1.05s;
+    --animate-delay8: 1.15s;
+  }
+  
+body {
+    font-family: "DM Sans", serif;
+    background: #162c78 url(../img/bg.png);
+    background-size: cover;
+}
+
+.animate__delay1{
+    animation-delay: var(--animate-delay1);
+}
+.animate__delay2{
+    animation-delay: var(--animate-delay2);
+}
+.animate__delay3{
+    animation-delay: var(--animate-delay3);
+}
+.animate__delay4{
+    animation-delay: var(--animate-delay4);
+}
+.animate__delay5{
+    animation-delay: var(--animate-delay5);
+}
+.animate__delay6{
+    animation-delay: var(--animate-delay6);
+}
+.animate__delay7{
+    animation-delay: var(--animate-delay7);
+}
+.animate__delay8{
+    animation-delay: var(--animate-delay8);
+}
+.logo {
+    background: #FFF;
+    width: 325px;
+    height: 135px;
+    margin: auto;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.logo img {
+    max-width: 124px;
+    object-fit: contain;
+}
+
+.flex-box {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.title {
+    color: #FFF;
+    font-size: 20px;
+    line-height: 26px;
+}
+
+.btn-box {
+    display: flex;
+    gap: 20px;
+}
+
+.btn-success {
+    background: #3b8f5a;
+    font-weight: 600;
+    min-width: 180px;
+    min-height: 45px;
+    border-radius: 10px;
+    letter-spacing: 0.5px;
+}
+
+.easypay {
+    max-width: 325px;
+}
+
+.link-box {
+    display: flex;
+    gap: 70px;
+}
+
+.link-box a {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: #FFF;
+    text-decoration: none;
+    font-weight: 600;
+    gap: 5px;
+}
+
+.link-box img {
+    width: 70px;
+}
+
+.Copyright {
+    font-weight: 700;
+    color: #FFF;
+}
+
+.mobile-img {
+    max-width: 290px;
+    position: absolute;
+    left: calc(50% - 145px);
+    top: 160px;
+}
+
+.user-img{
+    max-width: 225px;
+    position: absolute;
+    right: 20%;
+    top: 13px;
+}
+
+@media (max-width: 991px) {
+    .user-img{
+        display: none;
+    }
+}
